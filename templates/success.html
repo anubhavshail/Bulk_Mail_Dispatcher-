@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bulk Mail Dispatcher</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../static/script.js"></script>
+    <script src="https://kit.fontawesome.com/2c901e3f16.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-3 text-center pb-3">Bulk Mail Dispatcher</h1>
+        <img src="../static/ZCum.gif" alt="loading" class="center">
+        <table class="table sticky table-fixed"> 
+            <thead>
+                <tr>
+                    <th>Email successfully sent to </th>
+                </tr> 
+            </thead>
+            <tbody>  
+                {% for v in val %}
+                <tr>
+                    <td>{{v}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>    
+        </table>
+        <a href="/"><button class="button">Send more mails <em class="fas fa-redo"></em></button></a>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+    </body>
+</html>

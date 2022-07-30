@@ -1,0 +1,130 @@
+
+*{
+    box-sizing:border-box;
+}
+h1 {
+    color:black;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 4px;
+}
+
+body{
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    font-size: large;
+}
+
+
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgreen;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:gainsboro;
+    margin:10px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 60%;
+}
+
+.table thead tr{
+    background-color: aquamarine;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td{
+    padding: 12px 15px;
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-fixed{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-fixed tbody{
+    display: block;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.table-fixed tr{
+    display: block;
+
+}
+
+.table.sticky th{
+    position: sticky;
+    top:0;
+}
+
+input[type="submit"],
+input[type="reset"]
+{
+    background-color:aquamarine;
+    padding:12px 20px;
+    border:none;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    width: 47%;
+
+}
+
+
+input[type="reset"]:hover{
+    background-color: #4efa4e;
+}
+
+input[type="submit"]:hover{
+    background-color: #4efa4e;
+}
+
+.button{
+    background-color:aquamarine;
+    padding:12px 20px;
+    border:none;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    width: 15%;
+}
+
+.button:hover{
+    background-color: #4efa4e;
+}
