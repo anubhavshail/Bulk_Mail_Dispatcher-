@@ -10,6 +10,10 @@ app.config['UPLOAD_EXTENSIONS'] = ['.csv']
 def index():
     return render_template('index.html')
 
+@app.route('/sms')
+def sms():
+    return render_template('sms.html')
+
 @app.route('/sendmail', methods=['GET', 'POST'])
 def handleform():
    if request.method == 'POST':
